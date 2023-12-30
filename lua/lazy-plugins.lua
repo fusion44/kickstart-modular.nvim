@@ -7,6 +7,11 @@
 require('lazy').setup({
   -- NOTE: First, some plugins that don't require any configuration
 
+  -- Extension to make delete behave like delete
+  -- (e.g. doesn't overwrite current yank)
+  -- https://github.com/gbprod/cutlass.nvim
+  'gbprod/cutlass.nvim',
+
   -- Git related plugins
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
