@@ -59,7 +59,6 @@ return {
 				mappings = {
 					Y = "copy_selector",
 			                l = "open",
-			                L = "open_nofocus",
                                         h = "close_node",
 				},
 			},
