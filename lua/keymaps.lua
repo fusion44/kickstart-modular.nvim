@@ -25,4 +25,6 @@ vim.api.nvim_create_autocmd('TextYankPost', {
   pattern = '*',
 })
 
--- vim: ts=2 sts=2 sw=2 et
+vim.keymap.set('n', '<C-s>', '<cmd>w!<cr>', { desc = 'Force Write' })
+vim.keymap.set('n', '|', '<cmd>vsplit<cr>', { desc = 'Vertical Split' })
+vim.keymap.set('n', '\\', '<cmd>split<cr>', { desc = 'Horizontal Split' })

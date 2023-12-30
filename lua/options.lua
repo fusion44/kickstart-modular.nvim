@@ -2,11 +2,28 @@
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 
+-- minimum number of lines to keep above and
+-- below the cursor
+vim.o.scrolloff = 8
+
+-- wrap lines when longer than screen width
+vim.o.wrap = true
+
+-- automatically reload buffers when file contents
+-- are changed from an external tool
+vim.o.autoread = true
+
+-- Ask if any unsaved buffers should be saved
+-- when exiting vim.
+vim.o.cf = true
+
 -- Set highlight on search
 vim.o.hlsearch = false
 
 -- Make line numbers default
-vim.wo.number = true
+vim.o.nu = true
+vim.o.number = true
+vim.o.relativenumber = true
 
 -- Enable mouse mode
 vim.o.mouse = 'a'
@@ -38,5 +55,3 @@ vim.o.completeopt = 'menuone,noselect'
 
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
-
--- vim: ts=2 sts=2 sw=2 et
