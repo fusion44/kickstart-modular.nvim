@@ -118,7 +118,7 @@ require('lazy').setup({
   },
 
   {
-    "folke/tokyonight.nvim",
+    'folke/tokyonight.nvim',
     lazy = false,
     priority = 1000,
     opts = {},
@@ -127,7 +127,7 @@ require('lazy').setup({
       -- vim.cmd.colorscheme 'tokyonight-storm'
       -- vim.cmd.colorscheme 'tokyonight-day'
       vim.cmd.colorscheme 'tokyonight-moon'
-    end
+    end,
   },
 
   {
