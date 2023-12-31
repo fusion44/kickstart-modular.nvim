@@ -3,12 +3,12 @@ return {
   config = function()
     require('transparent').setup {
       extra_groups = {
-        "NeoTreeNormal",
-        "NeoTreeNormalNC",
-        "NormalFloat",
+        'NeoTreeNormal',
+        'NeoTreeNormalNC',
+        'NormalFloat',
       },
     }
 
-    require('transparent').clear_prefix('lualine')
+    require('transparent').clear_prefix 'lualine'
   end,
 }
