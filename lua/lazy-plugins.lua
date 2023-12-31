@@ -16,6 +16,9 @@ require('lazy').setup({
   'tpope/vim-fugitive',
   'tpope/vim-rhubarb',
 
+  -- move lines with Alt+jk
+  'matze/vim-move',
+
   -- Detect tabstop and shiftwidth automatically
   'tpope/vim-sleuth',
 
