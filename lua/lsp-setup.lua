@@ -27,3 +27,4 @@ capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 -- Require all the LSP setups
 require 'custom.lsp.lua'
+require 'custom.lsp.python'
